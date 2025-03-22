@@ -12,7 +12,7 @@ jobs:
         - build: linux
           os: ubuntu-latest
           rust: nightly
-          target: arm64-unknown-linux
+          target: aarch64-unknown-linux-gnu
           archive-name: NodeInject-linux.tar.gz
         - build: windows
           os: windows-2019
